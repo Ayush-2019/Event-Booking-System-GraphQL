@@ -5,6 +5,10 @@ This application uses GraphQL for server side programming, thus, instead of crea
 
 The query and mutation properties of GraphQL enables the server to create events, create bookings, register user in this application, sign in(for this, jsonwebtoken is used), cancel booking created by particular user, and also see events and own bookings.
 
+The data is stored and retrieved from Mongo DB database.
+
+Bcrypt, is used to encrypt the password of user before sending it to the Mongo Database.
+
 The front end of this application is created using ReactJS, as primary technology.
 Front-end libraries like MaterialUI and react-toastify are used to create User Interface. react-chart-js is used to create the chart for bookings, categorising them into categories of 'Affordable', 'Usual' and 'Expensive' booking events. 
 Moreover, css is used to design a beautiful User Interface.
